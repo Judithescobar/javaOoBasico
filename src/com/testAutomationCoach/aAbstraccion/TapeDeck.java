@@ -19,15 +19,16 @@ class TapeDeck {
 
 class TapeDeckTestDrive {
     public static void main(String [] args) {
-
+        TapeDeck  t = new TapeDeck();
 //Por que no compilan las instrucciones de abajo?
-//        t.canRecord = true;
-//        t.playTape();
-//
-//
-//        if (t.canRecord == true) {
-//            t.recordTape();
-//
-//        }
+        // Respuesta: Por que no se creo la instancia
+        t.canRecord = true;
+        t.playTape();
+
+
+        if (t.canRecord == true) {
+            t.recordTape();
+
+        }
     }
 }

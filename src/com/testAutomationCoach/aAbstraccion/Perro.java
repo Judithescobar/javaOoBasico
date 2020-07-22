@@ -8,7 +8,11 @@ public class Perro {
 
     //comportamiento: ladrar, juguetear, comer, etc.
 
-    public void ladrar() {}
-    public void correr() {}
-    public void comer() {}
+    public void ladrar() {
+        System.out.println("Waw, Waw waw");
+
+
+    }
+    public void correr() {        System.out.println("run run");}
+    public void comer() {        System.out.println("Debe ser por dog chow");}
 }
